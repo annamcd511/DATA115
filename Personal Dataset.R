@@ -27,5 +27,6 @@ cancer_data$fitted_values <- logREG$fitted.values
 cancer_data$prediction <- ifelse(cancer_data$fitted_values < .5,"Died of Disease", "Lived")
 mean(cancer_data$prediction == cancer_data$`Patient's Vital Status`)
 
-ggplot(cancer_data, aes(x = `Patient's Vital Status`, y = probability )) + geom_boxplot(aes(fill = `Patient's Vital Status`)) + 
+ggplot(cancer_data, aes(x = `Patient's Vital Status`, y = fitted_values )) + geom_boxplot(aes(fill = `Patient's Vital Status`)) + 
   ggtitle("Comparison of the Model to the Actual Patient's Vital Status") + theme(legend.position = "none")
+
