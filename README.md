@@ -17,7 +17,7 @@ http://www.cbioportal.org/study/clinicalData?id=brca_metabric
 
 ### Figure 2
 ![image](https://user-images.githubusercontent.com/67665228/144691902-7b5aa928-5343-4f7f-a16a-4edb5f6d24f4.png)
-#### Figure 2 shows the distribution of the number of positive lymph nodes among the patients who lived and died. Again, there is not a big divide between the plots, but the samples who died seem to have a higher count of lymph nodes. This plot shows there are a lot of outliers for this variable, which might skew the data right.
+#### Figure 2 shows the distribution of the number of positive lymph nodes among the patients who lived and died. Again, there is not a big divide between the plots, but the samples who died seem to have a higher count of lymph nodes. This plot shows there are a lot of outliers for this variable, which might be skewing the data right.
 
 ### Figure 3
 ![image](https://user-images.githubusercontent.com/67665228/144692038-fa94d9b3-fe31-47f9-b611-c76a674ef9fc.png)
